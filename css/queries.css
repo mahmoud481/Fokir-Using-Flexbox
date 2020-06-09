@@ -1,0 +1,139 @@
+/* Big tablet to 1200px (widths smaller that the 1140px row) */
+@media only screen and (max-width: 1200px){
+  
+  
+}
+
+/* Small tablet to big tablet: from 768px to 991px */
+
+@media only screen and (max-width:991px){
+   nav{
+        width: 90%;
+        justify-content: space-around
+   }
+   header .header-body{
+    left: 35%;
+   }
+   .services-content .items{
+       flex-wrap: wrap;   
+   }
+   .services-content .item{
+       width: 40%;
+   }
+   .portfolio-content{
+    padding: 20px 0;
+   }  
+   .portfolio-content .items{
+       padding: 20px 0;
+   }
+   .portfolio-content .item{
+       width: 40%;
+   }
+   .facts .row .item{
+       width: 40%;
+   }
+   .test-profile{
+       width: 100%;
+   }
+   .box{
+       font-size: 90%;
+       width: 80%;
+   }
+   .blog-content .layer-text{
+    padding-left: 0px;
+    font-size: 90%;
+}
+.blog-content .layer-text .heading{
+    font-size: 100%;
+    font-weight: bold;
+}
+.form-content{
+    width: 80%;
+}
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    nav{
+        justify-content: flex-start;
+    }
+    .nav-items{
+        display: none;
+    }   
+    header .header-body{
+        top: 25%;
+        left: 22%;
+       }
+
+    .about-content{
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-img{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .about-text{
+
+        width: 100%;
+    }
+    .profile-details ul{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .profile-details ul .item{
+        width: 50%;
+    }
+    .profile-details .btn{
+        margin-top: 10px;
+    }
+    .services-content .item{
+        width: 70%;
+    }
+    .portfolio-content .item{
+        width: 70%;
+    }
+    .facts .row .item{
+        width: 70%;
+    }
+    
+    .box{
+        font-size: 90%;
+        width: 100%;
+        height: 45vh;
+        padding-top: 10px 0 0;
+    }
+    .blog-content .items{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog .item{
+        width: 70.33%;
+    }
+    .blog-content .layer-text{
+        padding-left: 20px;
+        font-size: 100%;
+    }
+    .blog-content .layer-text .heading{
+        font-size: 130%;
+        font-weight: bold;
+    }
+    .form-content{
+        width: 100%;
+    }
+    .footer-content{
+        width:70%;
+        padding: 40px 0;
+    }
+   
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    .profile-details ul .item{
+        width: 90%;
+    }
+}
